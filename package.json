@@ -1,0 +1,24 @@
+{
+  "name": "main-project-5---portfolio-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umernk42/freeCodeCamp-Portfolio-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umernk42/freeCodeCamp-Portfolio-Page/issues"
+  },
+  "homepage": "https://github.com/umernk42/freeCodeCamp-Portfolio-Page#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
