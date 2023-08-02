@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link rel="icon" type="image/png" href="images/Icons/icons8-portfolio-96.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -17,27 +18,28 @@
 </head>
 
 <body>
-  <div id='nav-bar' class="nav-bar">
-    <div class="nav-bar-main">
+  <div id='navbar' class="navbar">
+    <div class="navbar-main">
       <h2><a href="#Home">Umer Zaheer</a></h2>
+      <button class="navbar-toggle" id="toggleBtn">
+        <img src="images/Icons/icons8-menu.svg" alt="Menu-Image" height="70px" />
+      </button>
     </div>
-    <button class="navbar-toggle" id="toggleBtn">
-      <img src="images/Icons/icons8-menu.svg" alt="Menu-Image" height="70px" />
-    </button>
-    <nav id="navbarMenu" class="navbar-menu">
-      <a href="#Home">Home</a>
-      <a href="#About">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+
+    <nav id="navbar-menu" class="navbar-menu">
+      <a href="#Home" class="navbar-menu-btn">Home</a>
+      <a href="#About" class="navbar-menu-btn">About</a>
+      <a href="#projects" class="navbar-menu-btn">Projects</a>
+      <a href="#contact" class="navbar-menu-btn">Contact</a>
     </nav>
   </div>
 
-  <div id="navbarMenuMobile" class="navbarMenuMobile">
+  <!--   <div id="navbarMenuMobile" class="navbarMenuMobile">
     <a href="#Home" class="mobile-btn">Home</a>
     <a href="#About" class="mobile-btn">About</a>
     <a href="#projects" class="mobile-btn">Projects</a>
     <a href="#contact" class="mobile-btn">Contact</a>
-  </div>
+  </div> -->
 
   <section id="Home" class="section section-1">
     <div class="home-outer-container">
@@ -51,75 +53,99 @@
         </div>
       </div>
       <div class="tech-stack-container">
-        <h4 class="tech-stack-heading">Tech-Stack</h4>
+        <h2 class="tech-stack-heading">Tech-Stack</h2>
         <div class="tech-stack">
           <div title="HTML" class="icon-img">
             <img src="images/Icons/html.svg" alt="html-icon" />
+            <p class="icon-title">HTML</p>
           </div>
           <div title="CSS" class="icon-img">
             <img src="images/Icons/icons8-css.svg" alt="css-icon" />
+            <p class="icon-title">CSS</p>
           </div>
           <div title="SASS" class="icon-img">
             <img src="images/Icons/icons8-sass.svg" alt="sass-icon" />
+            <p class="icon-title">SASS</p>
+
           </div>
           <div title="BOOTSTRAP" class="icon-img">
             <img src="images/Icons/icons-bootstrap.svg" alt="bootstarp-icon" />
+            <p class="icon-title">BOOTSTRAP</p>
+
           </div>
           <div title="JAVASCRIPT" class="icon-img">
             <img src="images/Icons/icons8-javascript.svg" alt="javascript-icon" />
+            <p class="icon-title">JAVASCRIPT</p>
+
           </div>
           <div title="JQUERY" class="icon-img">
             <img src="images/Icons/icons8-jquery.svg" alt="jQuery-icon" />
+            <p class="icon-title">JQUERY</p>
+
           </div>
           <div title="REACT.js" class="icon-img">
             <img src="images/Icons/icons8-react.svg" alt="react-icon" />
+            <p class="icon-title">REACT</p>
+
           </div>
           <div title="NODE.js" class="icon-img">
             <img src="images/Icons/node-js.svg" alt="node-icon" />
+            <p class="icon-title">NODE</p>
+
           </div>
           <div title="EXPRESS.js" class="icon-img">
             <img src="images/Icons/icons8-express-js.svg" alt="express-icon" />
+            <p class="icon-title">EXPRESS</p>
+
           </div>
           <div title="MONGODB" class="icon-img">
             <img src="images/Icons/icons8-mongodb.svg" alt="mongodb-icon" />
+            <p class="icon-title">MONGODB</p>
+
           </div>
           <div title="MONGOOSE" class="icon-img">
             <img src="images/Icons/icons8-mongoose.svg" alt="mongoose-icon" />
+
+            <p class="icon-title">MONGOOSE</p>
+
           </div>
           <div title="MY SQL" class="icon-img">
             <img src="images/Icons/icons8-mysql.svg" alt="my-sql-icon" />
+            <p class="icon-title">MY SQL</p>
+
           </div>
         </div>
       </div>
     </div>
   </section>
 
+<!-- 
   <section id="About" class="section section-2">
     <div class="about-outer-container">
       <div class="side-pic">
         <img src="images/laptopWithDiary.jpg" alt="BookShelf" />
       </div>
       <div class="about-container">
-        <h3 class="section-heading">About me</h3>
-        <h3 class="section-description">
-          A dedicated Full-Stack Developer based in Lahore, Pakistan
-        </h3>
-        <p class="section-text">
-          A junior full-stack developer, I posses an impressive arsenal of
-          skills in HTML, CSS, Javascript, React, BootStrap, Node.js and
-          MongoDb. I excel in desinging responsive websites that offer a
-          smooth user experience. I am also skilled in developing APIs and
-          hooking static websites to the backed to give them life. I am also a
-          team player who thries in collaboratin with cross-functional teams
-          to produce outsanding web applications
-        </p>
+        <h2 class="section-heading">About me</h3>
+          <h3 class="section-description">
+            A dedicated Full-Stack Developer based in Lahore, Pakistan
+          </h3>
+          <p class="section-text">
+            As a junior full-stack developer, I posses an impressive arsenal of
+            skills in HTML, CSS, Javascript, React, BootStrap, Node.js and
+            MongoDb. I excel in desinging responsive websites that offer a
+            smooth user experience. I am also skilled in developing APIs and
+            hooking static websites to the backed to give them life. I am also a
+            team player who thrives in collaborating with cross-functional teams
+            to produce outstanding web applications.
+          </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="projects" class="section section-3">
+<!--   <section id="projects" class="section section-3">
     <div class="projects-outer-container">
-      <h3 class="section-heading">Projects</h3>
+      <h2 class="section-heading">Projects</h2>
       <h3 class="section-description">
         Each Project is a unique piece of development
       </h3>
@@ -151,9 +177,7 @@
         </div>
       </div>
 
-
-
-      <div class="project-container">
+<div class="project-container">
         <div class="project-img">
           <img src="images/Calculator_Prjct.PNG" alt="CalculatorImg" />
         </div>
@@ -200,12 +224,11 @@
         <div class="project-img">
           <img src="images/Holy_Grail_Prjct.PNG" alt="HolyGrailImg" />
         </div>
-      </div>
-
+      </div> 
     </div>
-  </section>
+  </section>-->
 
-  <section id="contact" class="section section-4">
+  <!-- <section id="contact" class="section section-4">
     <div class="contacts-outer-container">
       <h3 class="section-heading">Contact</h3>
       <h3 class="section-description">Let's work together...</h3>
@@ -242,34 +265,25 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <hr class="footer-divider" />
+  <!--   <hr class="footer-divider" />
   <footer>
     <p>© Created by Umer Zaheer</p>
-  </footer>
+  </footer>-->
 </body>
 
 <script>
   document.getElementById('toggleBtn').addEventListener('click', function () {
-    document.getElementById('navbarMenuMobile').classList.toggle('active');
-    const sections = document.querySelectorAll('.section');
-    sections.forEach(function (section) {
-      section.classList.toggle('hide');
-    });
+    document.getElementById('navbar-menu').classList.toggle('active');
+
   });
 
-  const nav_mobile_btns = document.querySelectorAll('.mobile-btn');
+  const nav_btns = document.querySelectorAll('.navbar-menu-btn');
 
-
-
-  nav_mobile_btns.forEach(function (nav_mobile_btn) {
-    nav_mobile_btn.addEventListener('click', function () {
-      document.getElementById('navbarMenuMobile').classList.remove('active');
-      const sections = document.querySelectorAll('.section');
-      sections.forEach(function (section) {
-        section.classList.toggle('hide');
-      });
+  nav_btns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.getElementById('navbar-menu').classList.remove('active');
     });
   });
 
