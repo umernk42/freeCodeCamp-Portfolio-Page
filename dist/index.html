@@ -1,131 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/Icons/icons8-portfolio-96.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Umer Zaheer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9b7c669701.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <link rel="icon" type="image/png" href="images/Icons/icons8-portfolio-96.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
-  <title>Umer Zaheer</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://kit.fontawesome.com/9b7c669701.js" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <div id="navbar" class="navbar">
+      <div class="navbar-main">
+        <h2><a href="#Home">Umer Zaheer</a></h2>
+        <button class="navbar-toggle" id="toggleBtn">
+          <img
+            src="images/Icons/icons8-menu.svg"
+            alt="Menu-Image"
+            height="70px"
+          />
+        </button>
+      </div>
 
-<body>
-  <div id='navbar' class="navbar">
-    <div class="navbar-main">
-      <h2><a href="#Home">Umer Zaheer</a></h2>
-      <button class="navbar-toggle" id="toggleBtn">
-        <img src="images/Icons/icons8-menu.svg" alt="Menu-Image" height="70px" />
-      </button>
+      <nav id="navbar-menu" class="navbar-menu">
+        <a href="#Home" class="navbar-menu-btn">Home</a>
+        <a href="#About" class="navbar-menu-btn">About</a>
+        <a href="#projects" class="navbar-menu-btn">Projects</a>
+        <a href="#contact" class="navbar-menu-btn">Contact</a>
+      </nav>
     </div>
 
-    <nav id="navbar-menu" class="navbar-menu">
-      <a href="#Home" class="navbar-menu-btn">Home</a>
-      <a href="#About" class="navbar-menu-btn">About</a>
-      <a href="#projects" class="navbar-menu-btn">Projects</a>
-      <a href="#contact" class="navbar-menu-btn">Contact</a>
-    </nav>
-  </div>
-
-  <!--   <div id="navbarMenuMobile" class="navbarMenuMobile">
-    <a href="#Home" class="mobile-btn">Home</a>
-    <a href="#About" class="mobile-btn">About</a>
-    <a href="#projects" class="mobile-btn">Projects</a>
-    <a href="#contact" class="mobile-btn">Contact</a>
-  </div> -->
-
-  <section id="Home" class="section section-1">
-    <div class="home-outer-container">
-      <div class="text-container">
-        <div class="home-text">
-          <h1>Hey I am Umer</h1>
-          <p>A pationate Full Stack Developer based in Lahore, Pakistan</p>
+    <section id="Home" class="section section-1">
+      <div class="home-outer-container">
+        <div class="text-container">
+          <div class="home-text">
+            <h1>Hey I am Umer</h1>
+            <p>A pationate Full Stack Developer based in Lahore, Pakistan</p>
+          </div>
+          <div class="profile-pic-container">
+            <img
+              class="profile-pic"
+              src="images/Profile_Pic.jpeg"
+              alt="Profile_pic"
+            />
+          </div>
         </div>
-        <div class="profile-pic-container">
-          <img class="profile-pic" src="images/Profile_Pic.jpeg" alt="Profile_pic" />
-        </div>
-      </div>
-      <div class="tech-stack-container">
-        <h2 class="tech-stack-heading">Tech-Stack</h2>
-        <div class="tech-stack">
-          <div title="HTML" class="icon-img">
-            <img src="images/Icons/html.svg" alt="html-icon" />
-            <p class="icon-title">HTML</p>
-          </div>
-          <div title="CSS" class="icon-img">
-            <img src="images/Icons/icons8-css.svg" alt="css-icon" />
-            <p class="icon-title">CSS</p>
-          </div>
-          <div title="SASS" class="icon-img">
-            <img src="images/Icons/icons8-sass.svg" alt="sass-icon" />
-            <p class="icon-title">SASS</p>
+        <div class="tech-stack-container">
+          <h2 class="tech-stack-heading">Tech-Stack</h2>
+          <div class="tech-stack">
+            <div title="HTML" class="icon-img">
+              <img src="images/Icons/html.svg" alt="html-icon" />
+              <p class="icon-title">HTML</p>
+            </div>
+            <div title="CSS" class="icon-img">
+              <img src="images/Icons/icons8-css.svg" alt="css-icon" />
+              <p class="icon-title">CSS</p>
+            </div>
+            <div title="SASS" class="icon-img">
+              <img src="images/Icons/icons8-sass.svg" alt="sass-icon" />
+              <p class="icon-title">SASS</p>
+            </div>
+            <div title="BOOTSTRAP" class="icon-img">
+              <img
+                src="images/Icons/icons-bootstrap.svg"
+                alt="bootstarp-icon"
+              />
+              <p class="icon-title">BOOTSTRAP</p>
+            </div>
+            <div title="JAVASCRIPT" class="icon-img">
+              <img
+                src="images/Icons/icons8-javascript.svg"
+                alt="javascript-icon"
+              />
+              <p class="icon-title">JAVASCRIPT</p>
+            </div>
+            <div title="JQUERY" class="icon-img">
+              <img src="images/Icons/icons8-jquery.svg" alt="jQuery-icon" />
+              <p class="icon-title">JQUERY</p>
+            </div>
+            <div title="REACT.js" class="icon-img">
+              <img src="images/Icons/icons8-react.svg" alt="react-icon" />
+              <p class="icon-title">REACT</p>
+            </div>
+            <div title="NODE.js" class="icon-img">
+              <img src="images/Icons/node-js.svg" alt="node-icon" />
+              <p class="icon-title">NODE</p>
+            </div>
+            <div title="EXPRESS.js" class="icon-img">
+              <img
+                src="images/Icons/icons8-express-js.svg"
+                alt="express-icon"
+              />
+              <p class="icon-title">EXPRESS</p>
+            </div>
+            <div title="MONGODB" class="icon-img">
+              <img src="images/Icons/icons8-mongodb.svg" alt="mongodb-icon" />
+              <p class="icon-title">MONGODB</p>
+            </div>
+            <div title="MONGOOSE" class="icon-img">
+              <img src="images/Icons/icons8-mongoose.svg" alt="mongoose-icon" />
 
-          </div>
-          <div title="BOOTSTRAP" class="icon-img">
-            <img src="images/Icons/icons-bootstrap.svg" alt="bootstarp-icon" />
-            <p class="icon-title">BOOTSTRAP</p>
-
-          </div>
-          <div title="JAVASCRIPT" class="icon-img">
-            <img src="images/Icons/icons8-javascript.svg" alt="javascript-icon" />
-            <p class="icon-title">JAVASCRIPT</p>
-
-          </div>
-          <div title="JQUERY" class="icon-img">
-            <img src="images/Icons/icons8-jquery.svg" alt="jQuery-icon" />
-            <p class="icon-title">JQUERY</p>
-
-          </div>
-          <div title="REACT.js" class="icon-img">
-            <img src="images/Icons/icons8-react.svg" alt="react-icon" />
-            <p class="icon-title">REACT</p>
-
-          </div>
-          <div title="NODE.js" class="icon-img">
-            <img src="images/Icons/node-js.svg" alt="node-icon" />
-            <p class="icon-title">NODE</p>
-
-          </div>
-          <div title="EXPRESS.js" class="icon-img">
-            <img src="images/Icons/icons8-express-js.svg" alt="express-icon" />
-            <p class="icon-title">EXPRESS</p>
-
-          </div>
-          <div title="MONGODB" class="icon-img">
-            <img src="images/Icons/icons8-mongodb.svg" alt="mongodb-icon" />
-            <p class="icon-title">MONGODB</p>
-
-          </div>
-          <div title="MONGOOSE" class="icon-img">
-            <img src="images/Icons/icons8-mongoose.svg" alt="mongoose-icon" />
-
-            <p class="icon-title">MONGOOSE</p>
-
-          </div>
-          <div title="MY SQL" class="icon-img">
-            <img src="images/Icons/icons8-mysql.svg" alt="my-sql-icon" />
-            <p class="icon-title">MY SQL</p>
-
+              <p class="icon-title">MONGOOSE</p>
+            </div>
+            <div title="MY SQL" class="icon-img">
+              <img src="images/Icons/icons8-mysql.svg" alt="my-sql-icon" />
+              <p class="icon-title">MY SQL</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="About" class="section section-2">
-    <div class="about-outer-container">
-      <div class="side-pic">
-        <img src="images/laptopWithDiary.jpg" alt="BookShelf" />
-      </div>
-      <div class="about-container">
-        <h2 class="section-heading">About me</h3>
+    <section id="About" class="section section-2">
+      <div class="about-outer-container">
+        <div class="side-pic">
+          <img src="images/laptopWithDiary.jpg" alt="BookShelf" />
+        </div>
+        <div class="about-container">
+          <h2 class="section-heading">About me</h2>
           <h3 class="section-description">
             A dedicated Full-Stack Developer based in Lahore, Pakistan
           </h3>
@@ -138,96 +154,119 @@
             team player who thrives in collaborating with cross-functional teams
             to produce outstanding web applications.
           </p>
-      </div>
-    </div>
-  </section> 
-
-<section id="projects" class="section section-3"> -->
-    <div class="projects-outer-container">
-      <h2 class="section-heading">Projects</h2>
-      <h3 class="section-description">
-        Each Project is a unique piece of development
-      </h3>
-
-      <div class="project-container">
-
-        <div class="project-details">
-          <h3 class="project-name">Workout Buddy</h3>
-          <p class="project-description">
-            A Full Stack MERN applications to keep track of your
-            daily workout routine. Customize your workout routine
-            as you go along.
-          </p>
-          <div class="project-technologies">
-            React &nbsp;&nbsp; Node.js &nbsp;&nbsp; Express.js &nbsp;&nbsp; MongoDB
-          </div>
-          <div class="project-site-details">
-            <a href="https://github.com/umernk42/WorkOuts_MERN.git" target="_blank"><i
-                class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a>
-
-            <a href="https://umernk42.github.io/WorkOuts_MERN/" target="_blank"><i
-                class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
-              Demo</a>
-          </div>
-        </div>
-
-        <div class="project-img">
-          <img src="images/Workout Buddy.PNG" alt="WorkoutBuddyImg" />
         </div>
       </div>
+    </section>
 
-<div class="project-container">
-        <div class="project-img">
-          <img src="images/Calculator_Prjct.PNG" alt="CalculatorImg" />
-        </div>
-        <div class="project-details">
-          <h3 class="project-name">React + Redux Calculator</h3>
-          <p class="project-description">
-            A fully functional calculator app built using react and styled via CSS.
-            Redux is used as a state management library. Styling is done via Vanilla CSS.
-          </p>
-          <div class="project-technologies">
-            React &nbsp;&nbsp; Redux &nbsp;&nbsp; CSS
+    <section id="projects" class="section section-3">
+      <div class="projects-outer-container">
+        <h2 class="section-heading">Projects</h2>
+        <h3 class="section-description">
+          Each Project is a unique piece of development
+        </h3>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="images/Workout Buddy.PNG" alt="WorkoutBuddyImg" />
           </div>
-          <div class="project-site-details">
-            <a href="https://github.com/umernk42/ReactRedux-Calculator.git" target="_blank"><i
-                class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a>
 
-            <a href="https://umernk42.github.io/ReactRedux-Calculator/" target="_blank"><i
-                class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
-              Demo</a>
+          <div class="project-details">
+            <h3 class="project-name">Workout Buddy</h3>
+            <p class="project-description">
+              A Full Stack MERN applications to keep track of your daily workout
+              routine. Customize your workout routine as you go along.
+            </p>
+            <div class="project-technologies">
+              <p>React</p>
+              <p>Node.js</p>
+              <p>Express.js</p>
+              <p>MongoDB</p>
+            </div>
+            <div class="project-site-details">
+              <a
+                href="https://github.com/umernk42/WorkOuts_MERN.git"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a
+              >
+
+              <a
+                href="https://umernk42.github.io/WorkOuts_MERN/"
+                target="_blank"
+                ><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
+                Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="images/Calculator_Prjct.PNG" alt="CalculatorImg" />
+          </div>
+
+          <div class="project-details">
+            <h3 class="project-name">React + Redux Calculator</h3>
+            <p class="project-description">
+              A fully functional calculator app built using react and styled via
+              CSS. Redux is used as a state management library. Styling is done
+              via Vanilla CSS.
+            </p>
+            <div class="project-technologies">
+              <p>React</p>
+              <p>Redux</p>
+              <p>CSS</p>
+            </div>
+            <div class="project-site-details">
+              <a
+                href="https://github.com/umernk42/ReactRedux-Calculator.git"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a
+              >
+
+              <a
+                href="https://umernk42.github.io/ReactRedux-Calculator/"
+                target="_blank"
+                ><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
+                Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="images/Holy_Grail_Prjct.PNG" alt="HolyGrailImg" />
+          </div>
+          <div class="project-details">
+         
+            <h3 class="project-name">Holy Grail</h3>
+            <p class="project-description">
+              A Holy Grail CSS layout built using CSS FlexBox and Grid that
+              showcases my skills as a front-end developer and my deep
+              understanding of Layouts work.
+            </p>
+            <div class="project-technologies">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+            <div class="project-site-details">
+              <a
+                href="https://github.com/umernk42/Holy-Grail.git"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a
+              >
+
+              <a href="https://umernk42.github.io/Holy-Grail/" target="_blank"
+                ><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
+                Demo</a
+              >
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="project-container">
-        <div class="project-details">
-          <h3 class="project-name">Holy Grail</h3>
-          <p class="project-description">
-            A Holy Grail CSS layout built using CSS FlexBox and Grid that
-            showcases my skills as a front-end developer and my deep
-            understanding of Layouts work.
-          </p>
-          <div class="project-technologies">
-            HTML &nbsp;&nbsp;&nbsp;&nbsp; CSS
-          </div>
-          <div class="project-site-details">
-            <a href="https://github.com/umernk42/Holy-Grail.git" target="_blank"><i
-                class="fa-brands fa-github"></i>&nbsp;&nbsp; Code Repo</a>
-
-            <a href="https://umernk42.github.io/Holy-Grail/" target="_blank"><i
-                class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Live
-              Demo</a>
-          </div>
-        </div>
-        <div class="project-img">
-          <img src="images/Holy_Grail_Prjct.PNG" alt="HolyGrailImg" />
-        </div>
-      </div> 
-    </div>
-  </section>
-
-  <!-- <section id="contact" class="section section-4">
+    <!-- <section id="contact" class="section section-4">
     <div class="contacts-outer-container">
       <h3 class="section-heading">Contact</h3>
       <h3 class="section-description">Let's work together...</h3>
@@ -266,26 +305,23 @@
     </div>
   </section> -->
 
-  <!--   <hr class="footer-divider" />
+    <!--   <hr class="footer-divider" />
   <footer>
     <p>© Created by Umer Zaheer</p>
   </footer>-->
-</body>
+  </body>
 
-<script>
-  document.getElementById('toggleBtn').addEventListener('click', function () {
-    document.getElementById('navbar-menu').classList.toggle('active');
-
-  });
-
-  const nav_btns = document.querySelectorAll('.navbar-menu-btn');
-
-  nav_btns.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      document.getElementById('navbar-menu').classList.remove('active');
+  <script>
+    document.getElementById("toggleBtn").addEventListener("click", function () {
+      document.getElementById("navbar-menu").classList.toggle("active");
     });
-  });
 
-</script>
+    const nav_btns = document.querySelectorAll(".navbar-menu-btn");
 
+    nav_btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        document.getElementById("navbar-menu").classList.remove("active");
+      });
+    });
+  </script>
 </html>
