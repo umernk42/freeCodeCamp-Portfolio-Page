@@ -132,6 +132,8 @@
         Each Project is a unique piece of development
       </h3>
 
+
+      <!--Workout Buddy -->
       <div class="project-container">
         <div class="project-img">
           <img src="images/ProjectImgs/Workout Buddy_2.PNG" alt="WorkoutBuddyImg" />
@@ -162,6 +164,7 @@
         </div>
       </div>
 
+      <!--Calculator -->
       <div class="project-container">
         <div class="project-img">
           <img src="images/ProjectImgs/Calculator_Prjct.PNG" alt="CalculatorImg" />
@@ -192,6 +195,7 @@
         </div>
       </div>
 
+      <!--Holy Grail -->
       <div class="project-container">
         <div class="project-img">
           <img src="images/ProjectImgs/Holy_Grail_Prjct.PNG" alt="HolyGrailImg" />
@@ -221,6 +225,7 @@
         </div>
       </div>
 
+      <!--Pricing Card Component -->
       <div class="project-container">
         <div class="project-img">
           <img src="images/ProjectImgs/PriceCardImg.jpg" alt="PriceCardImg" />
@@ -250,6 +255,7 @@
         </div>
       </div>
 
+      <!--Product Preview Component -->
       <div class="project-container">
         <div class="project-img">
           <img src="images/ProjectImgs/ProductPreview.jpg" alt="ProductPreviewImg" />
@@ -279,7 +285,69 @@
         </div>
       </div>
 
+      <!--Results Summary Component -->
+      <div class="project-container">
+        <div class="project-img">
+          <img src="images/ProjectImgs/ResultsSummaryImg.jpg" alt="ResultsSummaryImg" />
+        </div>
+        <div class="project-details">
+
+          <h3 class="project-name">Results Summary Component</h3>
+          <p class="project-description">
+
+            A concise summary for a React web application. The application is designed to be responsive to
+            different devices and screen sizes.
+          </p>
+          <div class="project-technologies">
+            <p>REACT</p>
+            <p>CSS</p>
+          </div>
+          <div class="project-site-details">
+            <a href="https://github.com/umernk42/results-summary.git" target="_blank">
+              <p><i class="fa-brands fa-github"></i></p>
+              <p>Code Repo</p>
+            </a>
+            <a href="https://umernk42.github.io/results-summary/" target="_blank">
+              <p><i class="fa-solid fa-right-from-bracket"></i></p>
+              <p>Live Demo</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Survey Form -->
+      <div class="project-container">
+        <div class="project-img">
+          <img src="images/ProjectImgs/FreeCodeSurveyForm.PNG" alt="SurveyFromImg" />
+        </div>
+        <div class="project-details">
+
+          <h3 class="project-name">Basic Survey Form</h3>
+          <p class="project-description">
+
+            A Basic "Survey Form" designed to collect user feedback and preferences to improve a
+            platform. The form includes validation for required fields.
+          </p>
+          <div class="project-technologies">
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
+          <div class="project-site-details">
+            <a href="https://github.com/umernk42/FreeCodeCamp-SurveyForm.git" target="_blank">
+              <p><i class="fa-brands fa-github"></i></p>
+              <p>Code Repo</p>
+            </a>
+            <a href="https://umernk42.github.io/FreeCodeCamp-SurveyForm/" target="_blank">
+              <p><i class="fa-solid fa-right-from-bracket"></i></p>
+              <p>Live Demo</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+    <button id="show-more-btn" class="show-more-btn">Show More</button>
   </section>
 
   <section id="contact" class="section section-4">
@@ -327,40 +395,8 @@
   </footer>
 </body>
 
-<script>
-  document.getElementById("toggleBtn").addEventListener("click", function () {
-    document.getElementById("navbar-menu").classList.toggle("active");
-  });
+<script src="script.js">
 
-  const nav_btns = document.querySelectorAll(".navbar-menu-btn");
-
-  nav_btns.forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      document.getElementById("navbar-menu").classList.remove("active");
-    });
-  });
-
-
-  /* if (window.innerWidth > 576) {
-    project_conatiner_reorder();
-  }
-
-
-  function project_conatiner_reorder() {
-    const project_container = document.querySelectorAll('.project-container');
-    for (let i = 0; i < project_container.length; i++) {
-      if (i % 2) {
-        const project_img = project_container[i].children[0];
-        const project_details = project_container[i].children[1];
-
-        const new_project_details = project_details.cloneNode(true);
-
-        project_details.remove();
-        project_container[i].prepend(new_project_details);
-
-      }
-    }
-  } */
 </script>
 
 </html>
